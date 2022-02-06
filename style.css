@@ -1,0 +1,47 @@
+
+body{ margin: 0px;
+    padding: 0px;
+    
+height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+header{
+     background-color: rgb(213, 255, 196);
+}
+navbar .nav{
+    justify-content: flex-end;
+}
+footer{
+        background-color:yellow ;
+    }
+div{border:solid 1px greenyellow}
+div{}
+img{width: 100%;}
+
+header .logo img {
+    justify content: ;: center;
+    height: 80px;
+    width: 40px;
+    border:solid 1px blue;
+    
+    justify-self: center;}
+.nav {
+}
+section{}
+.titre {
+}
+.about {
+}
+.cardImg {
+}
+.bush {
+}
+.imggroup {
+}
+.social {
+}
+.back_top {
+}
