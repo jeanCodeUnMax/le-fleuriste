@@ -1,47 +1,172 @@
 
-body{ margin: 0px;
-    padding: 0px;
-    
-height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;}
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+/* img, picture, video, canvas, svg {
+  /* display: block; */
+  /* max-width: 100%;
+  
+} */
 
-header{
-     background-color: rgb(213, 255, 196);
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
 }
-navbar .nav{
-    justify-content: flex-end;
+/*
+  8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  padding:10px;
 }
-footer{
-        background-color:yellow ;
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+
+
+/* ------------------------- */
+
+
+
+*{
+  font-family: 'lato',sans-serif;
+  font-size: 1.1rem;
+  }
+
+.main{width: 100%;
+background-color: rgb(222, 234, 245);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+      }
+
+.head{height: 90px;
+  display : flex;
+  justify-content: center;
+  margin-bottom: 20px;  
+      }
+
+.logo{
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;  
+      }
+
+.navbar{align-self: center;
+  position:absolute;
+  left:85%;
+        }
+
+h1{text-align: center;
+font-size: 1.8em;
+margin-bottom: 10px;
+  }
+
+section{
+  align-self: center;
+  background-color: rgba(224, 220, 221, 0.486);
+  padding: 5%;
+  border-radius: 10px;
+      }
+
+  h2{  
+    text-align:center;
+    background-color: rgba(196, 167, 174, 0.486);
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
     }
-div{border:solid 1px greenyellow}
-div{}
-img{width: 100%;}
 
-header .logo img {
-    justify content: ;: center;
-    height: 80px;
-    width: 40px;
-    border:solid 1px blue;
+  .cardImg{border-radius: 5%;  
+          }
+
+  img{width: 100%; 
+    border-radius: 5%;   
+    margin-top: 10px; 
+      }
+
+.back{display: flex;
+    justify-content: flex-end;
+    margin-right:20px;
+    margin-top: 10px;
     
-    justify-self: center;}
-.nav {
-}
-section{}
-.titre {
-}
-.about {
-}
-.cardImg {
-}
-.bush {
-}
-.imggroup {
-}
-.social {
-}
-.back_top {
-}
+     }
+
+a img{
+    width:40%;border-radius: 50%;
+   
+    
+     }
+
+ 
+h3{display: flex;
+  justify-content: center;
+  }
+
+a {
+  display: flex;
+ 
+  justify-content: space-around;  
+  text-decoration: none;
+  color: rgb(141, 126, 126);
+     
+  }
+
+a:hover{
+    color: blueviolet;      
+      }
+
+.contact{
+   display: flex; 
+   margin-top: 30px;
+         }
+
+
+
+  
+
+  
+  
+
+ 
+
+  
+  
+  
+  
+  
+  
+  
